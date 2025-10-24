@@ -39,7 +39,7 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", ""
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHAT", "https://t.me/ll_ABOUT_ABHI_ll")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHAT", "https://t.me/Krishan_politicsss")
 SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/+InCvdgP9yWhkZDE1")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
@@ -81,7 +81,7 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://files.catbox.moe/l8ds66.jpg"
+    "START_IMG_URL", "https://ik.imagekit.io/krishan1234/5690109178f081adf464d.mp4?updatedAt=1761287050783"
 )
 PING_IMG_URL = getenv(
     "PING_IMG_URL", "https://files.catbox.moe/owh3j7.jpg"
@@ -117,5 +117,6 @@ if SUPPORT_GROUP:
         raise SystemExit(
             "[ERROR] - Your SUPPORT_GROUP url is wrong. Please ensure that it starts with https://"
         )
+
 
 
